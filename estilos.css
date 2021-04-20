@@ -118,28 +118,13 @@ input:focus~.barra::before{
         width: 100%;
 }
 
-/* Tamaño y color del boton del mismo color del background del body*/
-button{
-    font-family: 'roboto';
-    background: #F2994A;
-      /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #F2C94C, #F2994A);
-      /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #F2C94C, #F2994A);
-      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border: none;
-    display: block;
-    width: 80%;
-    margin: 10px auto;
-    color: black;
-    height: 40px;
-    font-size: 16px;
-    cursor: pointer;
-}
 
-/* Se usa para que el programa pueda ser responsive y con 500px se ajuste */
-@media screen and (max-width:500px) {
-    form{
-        width: 80%;
-    }
+/* */
+.warnings{
+width: 200px;
+text-align: center;
+margin: auto;
+color: #B06AB3;
+padding-top: 20px;
+
 }
